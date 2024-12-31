@@ -2,6 +2,12 @@
 #include<climits>
 using namespace std ;
 
+class student{
+    int rollno;
+    int age;
+    string name;
+};
+
 float min(float a ,float b){
     if(a<b) return a;
     else return b ;
